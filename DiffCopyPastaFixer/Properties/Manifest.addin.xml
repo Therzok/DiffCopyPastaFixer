@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path = "/MonoDevelop/Ide/Commands/Edit">
+		<Command id = "DiffCopyPastaFixer.DiffCopyPastaFixerCommands.RemoveDiffLines"
+			_label = "Remove Diff Lines"
+			defaultHandler = "DiffCopyPastaFixer.RemoveDiffLinesHandler"/>
+	</Extension>
+
+	<Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
+		<CommandItem id="DiffCopyPastaFixer.DiffCopyPastaFixerCommands.RemoveDiffLines" />
+	</Extension>
+
+	<Extension path = "/MonoDevelop/SourceEditor2/ContextMenu/Editor">
+		<CommandItem id="DiffCopyPastaFixer.DiffCopyPastaFixerCommands.RemoveDiffLines" />
+	</Extension>
+</ExtensionModel>
